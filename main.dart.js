@@ -95375,16 +95375,18 @@ m=A.aH3(new A.azf(s),t.BW)
 p=A.ee(A.b([o,n,A.ee(A.b([m,B.fk,s?A.jo(i,i,B.p2,i,i,new A.azg(a),i,i,i):A.kP(!1,B.Mw,i,i,i,i,i,i,new A.azh(a),i,i)],p),B.A,B.B,B.G,0)],p),B.A,B.d1,B.G,0)}o=A.ew(i,A.kv("assets/cover.png",B.mQ,i,i),B.v,B.l,i,i,i,i,i,B.op,i,i,1/0)
 n=A.aY(100,B.l.F()>>>16&255,B.l.F()>>>8&255,B.l.F()&255)
 m=A.es(10)
-l=t.p
-m=A.iW(B.bh,A.b([o,A.aO3(0,A.dF(A.ew(i,A.dj(A.b([A.bS("JD Foods & BBq",i,i,i,i,A.dC(i,i,B.j,i,i,i,i,i,"pacf",i,i,14,i,i,B.af,i,i,!0,i,1.5,i,i,i,i,i,i),i,i),A.cP(i,10,i),A.bS("Authentic flavours,\nTimeless Traditions!",i,i,i,i,A.dC(i,i,B.j,i,i,i,i,i,"babas",i,i,32,i,i,i,i,i,!0,i,i,i,i,i,i,i,i),B.ci,i)],l),B.A,i,B.B,B.bk,0),B.v,i,i,new A.dq(n,i,i,m,i,i,B.ay),i,i,i,new A.aj(70,70,70,70),i,i,i),i,i))],l),B.y,B.b0,i)
+l=A.bS("JD Foods & BBq",i,i,i,i,A.dC(i,i,B.j,i,i,i,i,i,"pacf",i,i,e<300?8:14,i,i,B.af,i,i,!0,i,1.5,i,i,i,i,i,i),i,i)
+k=A.cP(i,10,i)
+j=t.p
+m=A.iW(B.bh,A.b([o,A.aO3(0,A.dF(A.ew(i,A.dj(A.b([l,k,A.bS("Authentic flavours,\nTimeless Traditions!",i,i,i,i,A.dC(i,i,B.j,i,i,i,i,i,"babas",i,i,e<400?10:32,i,i,i,i,i,!0,i,i,i,i,i,i,i,i),B.ci,i)],j),B.A,i,B.B,B.bk,0),B.v,i,i,new A.dq(n,i,i,m,i,i,B.ay),i,i,i,new A.aj(70,50,70,50),i,i,i),i,i))],j),B.y,B.b0,i)
 n=A.cP(i,20,i)
-o=A.dF(A.aIy(40,B.a8,h),i,i)
-k=this.b
-j=A.a_(k).h("a2<1,rn>")
-j=A.W(A.W(new A.a2(k,new A.az9(r,d),j),!0,j.h("ah.E")),!0,t.l7)
-j.push(new A.bx(new A.aj(d,0,d,0),r.aaA(a),i))
-j.push(new A.iA(new A.Df(i),r.f))
-return A.GP(A.dj(A.b([new A.bx(B.Lh,p,i),m,n,o,new A.bx(new A.aj(0,20,0,20),A.dj(j,B.A,i,B.B,B.G,0),i)],l),B.A,i,B.B,B.G,0),q,B.X,i,i,B.an)},
+k=A.dF(A.aIy(40,B.a8,h),i,i)
+l=this.b
+o=A.a_(l).h("a2<1,rn>")
+o=A.W(A.W(new A.a2(l,new A.az9(r,d),o),!0,o.h("ah.E")),!0,t.l7)
+o.push(new A.bx(new A.aj(d,0,d,0),r.aaA(a),i))
+o.push(new A.iA(new A.Df(i),r.f))
+return A.GP(A.dj(A.b([new A.bx(B.Lh,p,i),m,n,k,new A.bx(new A.aj(0,20,0,20),A.dj(o,B.A,i,B.B,B.G,0),i)],j),B.A,i,B.B,B.G,0),q,B.X,i,i,B.an)},
 $S:624}
 A.az6.prototype={
 $0(){this.a.E8(this.b,B.b.gS($.vt()).f)},
