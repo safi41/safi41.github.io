@@ -95375,10 +95375,10 @@ m=A.aH3(new A.azf(s),t.BW)
 p=A.ee(A.b([o,n,A.ee(A.b([m,B.fk,s?A.jo(i,i,B.p2,i,i,new A.azg(a),i,i,i):A.kP(!1,B.Mw,i,i,i,i,i,i,new A.azh(a),i,i)],p),B.A,B.B,B.G,0)],p),B.A,B.d1,B.G,0)}o=A.ew(i,A.kv("assets/cover.png",B.mQ,i,i),B.v,B.l,i,i,i,i,i,B.op,i,i,1/0)
 n=A.aY(100,B.l.F()>>>16&255,B.l.F()>>>8&255,B.l.F()&255)
 m=A.es(10)
-l=A.bS("JD Foods & BBq",i,i,i,i,A.dC(i,i,B.j,i,i,i,i,i,"pacf",i,i,e<300?8:14,i,i,B.af,i,i,!0,i,1.5,i,i,i,i,i,i),i,i)
+l=A.bS("JD Foods & BBq",i,i,i,i,A.dC(i,i,B.j,i,i,i,i,i,"pacf",i,i,e<300?10:14,i,i,B.af,i,i,!0,i,1.5,i,i,i,i,i,i),i,i)
 k=A.cP(i,10,i)
 j=t.p
-m=A.iW(B.bh,A.b([o,A.aO3(0,A.dF(A.ew(i,A.dj(A.b([l,k,A.bS("Authentic flavours,\nTimeless Traditions!",i,i,i,i,A.dC(i,i,B.j,i,i,i,i,i,"babas",i,i,e<400?10:32,i,i,i,i,i,!0,i,i,i,i,i,i,i,i),B.ci,i)],j),B.A,i,B.B,B.bk,0),B.v,i,i,new A.dq(n,i,i,m,i,i,B.ay),i,i,i,new A.aj(70,50,70,50),i,i,i),i,i))],j),B.y,B.b0,i)
+m=A.iW(B.bh,A.b([o,A.aO3(0,A.dF(A.ew(i,A.dj(A.b([l,k,A.bS("Authentic flavours,\nTimeless Traditions!",i,i,i,i,A.dC(i,i,B.j,i,i,i,i,i,"babas",i,i,e<400?20:32,i,i,i,i,i,!0,i,i,i,i,i,i,i,i),B.ci,i)],j),B.A,i,B.B,B.bk,0),B.v,i,i,new A.dq(n,i,i,m,i,i,B.ay),i,i,i,new A.aj(70,50,70,50),i,i,i),i,i))],j),B.y,B.b0,i)
 n=A.cP(i,20,i)
 k=A.dF(A.aIy(40,B.a8,h),i,i)
 l=this.b
