@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="resturant_website">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="icons/favicon-32x32.png"/>
+
+  <!-- Lottie Web Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.9.6/lottie.min.js"></script>
+
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyDuOsFViSpugDUn2Ht6_3e4SASpisJBxFE",
+  authDomain: "resturantapp-804ea.firebaseapp.com",
+  projectId: "resturantapp-804ea",
+  storageBucket: "resturantapp-804ea.firebasestorage.app",
+  messagingSenderId: "283612214807",
+  appId: "1:283612214807:web:050f5c213e52d9d7484e52",
+  measurementId: "G-ENDTSY3TDJ"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+  </script>
+  <title>resturant_website</title>
+  <link rel="manifest" href="manifest.json">
+
+  <style>
+    /* Loader Styles */
+    #loader-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    }
+    #flutter-container {
+      visibility: hidden;
+    }
+  </style>
+</head>
+<body>
+<!-- Lottie Loader Container -->
+<div id="loader-container">
+  <div id="lottie-animation" style="width: 300px; height: 300px;"></div>
+</div>
+
+<!-- Flutter App Container -->
+<div id="flutter-container">
+  <script src="flutter_bootstrap.js" async></script>
+</div>
+
+<script>
+    // Load Lottie after Flutter bootstrap
+    window.addEventListener("DOMContentLoaded", function () {
+      lottie.loadAnimation({
+        container: document.getElementById('lottie-animation'),
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        path: 'assets/loading2.json'
+      });
+    });
+
+    // Hide the loader once the Flutter app is ready
+    window.addEventListener('flutter-first-frame', function () {
+      document.getElementById('loader-container').style.display = 'none';
+      document.getElementById('flutter-container').style.visibility = 'visible';
+    });
+</script>
+</body>
+</html>
