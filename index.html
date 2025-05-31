@@ -5,31 +5,35 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="JD Food and BBQ - Best grilled dishes and BBQ experience. Discover our menu and order online.">
-  <!-- SEO Meta -->
-  <meta property="og:title" content="JD Food and BBQ">
-  <meta property="og:description" content="Enjoy the finest BBQ and grilled food. Visit our restaurant or order online.">
-  <meta property="og:image" content="https://jdfoodandbbq.com/assets/logo1.png">
-  <meta property="og:url" content="https://jdfoodandbbq.com">
-  <meta property="og:type" content="website">
 
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="JD Food and BBQ">
-  <meta name="twitter:description" content="Best grilled food and BBQ in town.">
-  <meta name="twitter:image" content="https://jdfoodandbbq.com/assets/logo1.png">
-
-  <title>JD Food and BBQ | Official Website</title>
+    <!-- Cache Control -->
+    <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
-  <!-- iOS meta tags & icons -->
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="resturant_website">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="JD Food and BBQ">
+    <meta property="og:description" content="Enjoy the finest BBQ and grilled food. Visit our restaurant or order online.">
+    <meta property="og:image" content="https://jdfoodandbbq.com/assets/logo1.png">
+    <meta property="og:url" content="https://jdfoodandbbq.com">
+    <meta property="og:type" content="website">
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="JD Food and BBQ">
+    <meta name="twitter:description" content="Best grilled food and BBQ in town.">
+    <meta name="twitter:image" content="https://jdfoodandbbq.com/assets/logo1.png">
+
+    <!-- iOS -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="JD Food and BBQ">
+    <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png"/>
 
   <!-- Lottie Web Library -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.9.6/lottie.min.js"></script>
@@ -57,8 +61,6 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
   </script>
-  <title>resturant_website</title>
-  <link rel="manifest" href="manifest.json">
 
   <style>
     /* Loader Styles */
@@ -85,10 +87,11 @@ const analytics = getAnalytics(app);
   <div id="lottie-animation" style="width: 300px; height: 300px;"></div>
 </div>
 
+
 <!-- Flutter App Container -->
-<div id="flutter-container">
+  <div id="flutter-container"></div>
   <script src="flutter_bootstrap.js" async></script>
-</div>
+
 
 <script>
     // Load Lottie after Flutter bootstrap
